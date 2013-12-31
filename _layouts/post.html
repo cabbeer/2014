@@ -1,9 +1,5 @@
-<html>
-  <head>
-    <meta content='{{ site.title }}' property='og:title' />
-    <title>{{ site.title }}</title>
-    {% include head.html %}
-  </head>
+{% include head.html %}
+
   <body>
     <div class="wrapper">
 
@@ -12,7 +8,7 @@
           <nav>
             <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
             <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
-            <span>About</span> Mu-An
+            <span>About</span> Kabir
             </a>
           </nav>
           <br />
@@ -23,7 +19,7 @@
           {% if page.date %}
             <small class="datetime muted">
               {{ page.date | date_to_string }} - 
-              by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+              by <a href="https://twitter.com/beeriest" target="_blank">@beeriest</a>
             </small>
             <div class="pagination">
               {% if page.previous %}
