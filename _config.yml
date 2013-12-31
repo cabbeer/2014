@@ -1,0 +1,13 @@
+title:            Kabir Sewani - @beeriest ||
+url:              http://muan.co
+permalink:        pretty
+pygments:         false
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-21332781-7
+timezone:         Europe/London
+paginate: 5
+links: 
+  - name:         About
+    url:          /about
