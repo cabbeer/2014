@@ -2,6 +2,7 @@
 layout: post
 title: Code as an Activist
 date: 2012-06-03 22:35:02
+logo: u.gif
 ---
 
 

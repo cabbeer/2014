@@ -2,17 +2,26 @@
 layout: index
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li class="post">
-    <a href="{{ post.url }}" class="post-link">
-      <h2 class="post-title" title="{{ post.title }}">
-        {{ post.title }}<br />
-      </h2>
-      <span class="meta">
-        <time>{{ post.date | date_to_string }}</time>
-      </span>
-    </a>
+<div id="top-intro">
+  <p>Follow me on twitter <a href="/journal/post_artifact/">@beeriest</a></p>
+  <p><a href="/journal/hack_the_cover/">Connect </a>with me on LinkedIn</p>
+  <p>Or <a href="/journal/digital_physical/">send me an email</a></p>
+</div>
+
+
+
+
+
+<ol class="blogposts">{% for post in site.posts %}
+  <li class="postlogolist">
+    <div class="postlogo fade-in two" style="background-image: url(/images/{{ post.logo }})" >
+      <div onclick="location.href='{{ site.url }}{{ post.url }}';">
+
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      
+      <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+
+      </div>
+    </div>
   </li>
-  {% endfor %}
-</ul>
+{% endfor %}</ol>
