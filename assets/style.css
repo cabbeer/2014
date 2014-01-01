@@ -327,9 +327,21 @@ header .post-title {
   color: #999;
   display: inline-block; }
 
+
+
+
+/*Custom*/
+
   .content {
     min-height: 440px;
   }
+
+  .logo {
+    width: 100px;
+    display: inline-block;
+    padding-right: 20px;
+  }
+
 
 
 

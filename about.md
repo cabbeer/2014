@@ -3,8 +3,8 @@ layout: post
 title: About 
 ---
 
-**Mu-An Chiou** <small>(**邱慕安**)</small>. <br />
-[Marketing Director](https://github.com/blog/1568-mu-an-chiou-is-a-githubber) at [Athlete Builder](https://github.com) and co-founder of [Zeczec](http://zeczec.com). 
+**Kabir Sewani** <small>(**邱慕安**)</small>. <br />
+[Marketing Director](https://github.com/blog/1568-mu-an-chiou-is-a-githubber) at [Athlete Builder](https://github.com) and co-founder of [CanadianFrost](http://zeczec.com). 
 
 Originally from Taipei, lived in the UK for 5 years, currently based nowhere.
 
