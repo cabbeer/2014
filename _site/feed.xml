@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kabir Sewani - @beeriest ||</title>
+    <title>Kabir Sewani || @beeriest</title>
     <description></description>
-    <link>http://muan.co</link>
-    <atom:link href="http://muan.co/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Sublime Text 2 Mac Shortcuts</title>
-        <description>&lt;p&gt;Here’s a little bit of keyboard shortcuts that I found useful to have for sublime text 2:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/muan/4de4b806c4db59285beb.js?file=sublime-shortcuts.js&quot;&gt; &lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 22 Oct 2012 19:33:53 +0000</pubDate>
-        <link>http://muan.co/2012/10/22/sublime-shortcuts/</link>
-        <guid isPermaLink="true">http://muan.co/2012/10/22/sublime-shortcuts/</guid>
-      </item>
+    <link>kabirsewani.com</link>
+    <atom:link href="kabirsewani.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Installing Ruby on Rails on Windows (+ notes for Heroku)</title>
@@ -77,8 +65,8 @@ For Heroku, shell says “The system cannot find the path specified,” the prob
 &lt;p&gt;I got a new Mac a few month back, life is now a lot easier as a developer. But I cannot say it was painless the first time I set up rails on Mac, perhaps even more painful. The thing that made the difference was that a lot of the gems do not work on Windows, but they do on Mac. So if you’re installing Rails on Windows, you would still run into a lot of problems down the line with gems, it would be a good idea to at least start planning for a Mac. :)&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 Jun 2012 15:14:13 +0000</pubDate>
-        <link>http://muan.co/2012/06/09/setting-up-rails-on-a-windows-machine/</link>
-        <guid isPermaLink="true">http://muan.co/2012/06/09/setting-up-rails-on-a-windows-machine/</guid>
+        <link>kabirsewani.com/2012/06/09/setting-up-rails-on-a-windows-machine/</link>
+        <guid isPermaLink="true">kabirsewani.com/2012/06/09/setting-up-rails-on-a-windows-machine/</guid>
       </item>
     
       <item>
@@ -128,8 +116,8 @@ For Heroku, shell says “The system cannot find the path specified,” the prob
 &lt;p&gt;Aliquam ut mauris eget lacus adipiscing hendrerit. Nullam euismod semper metus at laoreet. Maecenas eu vulputate elit. Mauris vel iaculis neque, vel posuere orci. Etiam ut turpis blandit, consequat arcu ac, tempor urna. Mauris dui diam, tincidunt vel tellus quis, luctus sagittis metus. Nullam ultricies placerat porttitor. Cras id cursus dui. Fusce viverra vitae nibh in luctus. Phasellus mollis eros diam, id sollicitudin eros egestas non. Vivamus nec neque eget lorem vehicula hendrerit sed eget turpis. Suspendisse molestie lacus et arcu dapibus, in posuere odio rutrum. Quisque ipsum sem, consectetur in velit ac, blandit cursus massa.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Jun 2012 22:35:02 +0000</pubDate>
-        <link>http://muan.co/2012/06/03/code-as-an-activist/</link>
-        <guid isPermaLink="true">http://muan.co/2012/06/03/code-as-an-activist/</guid>
+        <link>kabirsewani.com/2012/06/03/code-as-an-activist/</link>
+        <guid isPermaLink="true">kabirsewani.com/2012/06/03/code-as-an-activist/</guid>
       </item>
     
   </channel>

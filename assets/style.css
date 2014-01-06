@@ -2,6 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto');
 @import url('http://fonts.googleapis.com/css?family=Merriweather');
 @import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 
 /*
@@ -37,7 +38,13 @@ body {
     box-sizing: border-box; }
 
 p {
-  margin: 0 0 0.6em; }
+margin-bottom: 30px;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+
+   }
 
 .capitalize {
   text-transform: capitalize; }
@@ -160,8 +167,9 @@ body {
   font-family: 'Source Sans Pro', helvetica, sans-serif;
   font-weight: 300;
   font-size: 18px;
-  /*background-color: #f9f9f9;*/
-  background-color: #f1f1f1; }
+  background-color: #f9f9f9;
+  /*background-color: #f1f1f1;*/ 
+  }
 
 
 b, strong, h1, h2, h3, h4, h5 {
@@ -361,6 +369,11 @@ article {
   color: #333;
 }
 
+article a:hover {
+  color: #000;
+border-bottom: 1px solid #cc092f;
+}
+
 article h1, h2, h3, h4, h5, h6 {
   text-rendering:optimizeLegibility;
   margin:0 0;
@@ -372,17 +385,23 @@ article h1, h2, h3, h4, h5, h6 {
 
 article h1{font-size:48px;line-height:48px;letter-spacing:-2px;text-indent:-3px;margin:30px 0; color: #115cdb;}
 article h2{font-size:32px;line-height:32px;letter-spacing:-1px;text-indent:-2px;margin:30px 0}
-article h3{font-size:22px;line-height:30px}
+article h3{
+font-size: 24px;
+line-height: 1.2;
+margin-bottom: 2px;
+letter-spacing: -0.02em;
+}
 article h4{font-size:22px;line-height:30px}
 article h5{font-size:22px;line-height:30px}
 article h6{font-size:22px;line-height:30px}
 
 article p {
-  padding: 0 0 30px;
-  margin: 0;
-
-  font-size: 22px;
-  line-height: 30px;    
+letter-spacing: .01rem;
+font-family: calendas plus;
+line-height: 1.5;
+color: #333332;
+font-size: 22px;
+text-rendering: optimizeLegibility;  
 }
 
 article small {
@@ -430,6 +449,10 @@ article {
 
 /* PLAYGROUND */
 
+.postintro {
+  font-size: 1.3em;
+}
+
 .blogposts {
   list-style:none;
 }
@@ -461,7 +484,7 @@ border-bottom: 3px solid #000;
 .postlogo > div {
 width: 100%;
 margin: 0 auto;
-padding: 32px 0 0;
+padding: 32px 0;
 position: absolute;
 bottom: 0px;
 background-image: linear-gradient(bottom,#000 0,rgba(0,0,0,0) 100%);
@@ -473,14 +496,14 @@ background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#000
 }
 
 .postlogo > div > h1 {
-font-size: 38px;
 text-align: center;
-margin: 0;
-padding: 0 32px;
-line-height: 44px;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.5em;
+margin-bottom: 0;
 }
 
 .postlogo > div > h1 a {
@@ -491,7 +514,7 @@ text-shadow: 0 0 5px rgba(255,255,255,0.5);
 }
 
 .postlogo > div > p {
-font-size: 14px;
+font-size: 16px;
 text-align: center;
 color: #fff;
 padding: 0 12px;
@@ -500,7 +523,7 @@ white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 padding: 0;
-margin: 1em;
+margin: 0 1em;
 }
 
 
@@ -511,35 +534,25 @@ nav {
 
 
 #top-intro {
-  margin-bottom: 30px;
-padding-bottom: 00px;
-border-bottom: 0px solid #ddd;
+margin-bottom: 30px;
 padding-left: 20%;
-float: left;
-min-height: 1px;
-font-family: 'PT Serif', serif;
+letter-spacing: .01rem;
+font-family: calendas plus;
+line-height: 1.5;
+font-size: 1em;
+text-rendering: optimizeLegibility;
 }
 
 #top-intro p {
-font-size: 1.4em;
+font-size: 1.2em;
 line-height: 1.5em;
 margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#top-intro a:hover {
+color: #000;
+border-bottom: 1px solid #cc092f;
+}
 
 
 
@@ -571,15 +584,46 @@ margin: 0;
     overflow: hidden; } }
 @media (max-width: 480px) {
   .wrapper {
-    padding: 15px; }
+    padding: 15px; 
+  }
 
   article img {
     margin: 0 !important;
     float: none !important;
-    min-width: 100% !important; }
+    min-width: 100% !important; 
+  }
 
   .pagination {
     font-size: 0;
-    overflow: hidden; }
+    overflow: hidden; 
+  }
     .pagination code {
-      display: none; } }
+      display: none; } 
+    }
+
+
+
+/*
+
+@media screen and (min-width: 800px) {
+
+.postlogo {
+ 
+  transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+-webkit-filter: grayscale(100%);
+}
+
+.postlogo:hover {
+
+    transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+   -webkit-filter: grayscale(0%);
+
+}}
+
+
+
+*/
