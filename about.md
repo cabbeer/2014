@@ -4,17 +4,12 @@ title: About
 ---
 
 
-<span>I'm an independent designer, entrepreneur and tech enthusiast usually in Ottawa, Ontario, but often in Toronto, too.</span>
-
-<span>I'm also Director of Marketing at [Athlete Builder](http://athletebuilder.com/) , a complete sports e-learning platform.</span> 
-
-</br>
+<span>I'm an independent designer, entrepreneur and tech enthusiast usually in Ottawa, Ontario, but often in Toronto, too. I'm also Director of Marketing at [Athlete Builder](http://athletebuilder.com/) , a complete sports e-learning platform.</span> 
 
 I love the nature of startups: the bullishness, the naiveté, the unanticipated, the chaos, the compression. 
 
 For a little over a year, I have been privileged to work at [Athlete Builder](http://athletebuilder.com/) as the director of marketing. I work on implementing new features, improving conversion and retention of our customers, and shaping the Athlete Builder voice through marketing experiments and writing.
 
----
 <!--
 ### PERSPECTIVE
 
@@ -47,11 +42,7 @@ think about learning and information accessibility. If you're working in this sp
 ---
 -->
 
-You can follow me on [Twitter](https://twitter.com/intent/user?screen_name=beeriest), of course.
 
-I love meeting new people. Want to work together or just chat about life?
-
-Feel free to <a href="http://www.linkedin.com/pub/kabir-sewani/39/120/b65">Connect </a>with me on LinkedIn, or <a onmouseover="this.innerHTML = 'kabir.sewani@gmail.com'" onmouseout="this.innerHTML = 'send me an email'" alt="email" href="mailto:kabir.sewani@gmail.com">send me an email</a>.
 
 
 
